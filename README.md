@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Python: unclosed file resources.  The `bug.py` file shows the problematic code where a file is opened but may not be closed due to an exception.  The `bugSolution.py` file provides a corrected version using a `with` statement to ensure proper resource management, even in the case of exceptions.
